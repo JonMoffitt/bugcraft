@@ -28,8 +28,33 @@ local.properties
 # PDT-specific
 .buildpath
 
-/forge/*
-minecraft*
+/forge/client/*
+/forge/common/*
+/forge/fml/*
+/forge/patches/*
+/forge/mcp/src/minecraft/*
+/forge/mcp/jars/*
+/forge/mcp/bin/*
+/forge/mcp/conf/*
+/forge/mcp/docs/*
+/forge/mcp/eclipse/*
+/forge/mcp/lib/*
+/forge/mcp/reobj/*
+/forge/mcp/runtime/*
+/forge/mcp/temp/*
+
+!/forge/mcp/src/minecraft/bugcraft*
+*.exe
+*.sh
+*.bat
+MinecraftForge*
+Paulscode*
+install*
+README-MinecraftForge.txt
+forge.py
+forgeversion.properties
+CHANGELOG
+LICENSE.txt
 
 #################
 ## Visual Studio
