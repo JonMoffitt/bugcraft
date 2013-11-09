@@ -32,7 +32,12 @@ local.properties
 /forge/common/*
 /forge/fml/*
 /forge/patches/*
+/forge/mcp/src/minecraft/cpw/*
+/forge/mcp/src/minecraft/ibxm/*
+/forge/mcp/src/minecraft/net/*
+/forge/mcp/src/minecraft/paulscode/*
 /forge/mcp/src/minecraft/*
+/forge/mcp/src/minecraft/assets/forge*
 /forge/mcp/jars/*
 /forge/mcp/bin/*
 /forge/mcp/conf/*
@@ -44,6 +49,7 @@ local.properties
 /forge/mcp/temp/*
 
 !/forge/mcp/src/minecraft/bugcraft*
+!/forge/mcp/src/minecraft/assets*
 *.exe
 *.sh
 *.bat
@@ -55,6 +61,7 @@ forge.py
 forgeversion.properties
 CHANGELOG
 LICENSE.txt
+minecraft_server.1.7.2.jar
 
 #################
 ## Visual Studio
