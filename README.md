@@ -26,20 +26,24 @@ you should now have a fully hydrated folder at "C:\modding\github\account_name\b
 5) copy [minecraft.exe] (https://s3.amazonaws.com/Minecraft.Download/versions/1.7.2/minecraft_server.1.7.2.exe)
    and [minecraft_server.1.7.2.jar] (https://s3.amazonaws.com/Minecraft.Download/versions/1.7.2/minecraft_server.1.7.2.jar)
    to the bugcraft folder from step 3.
-   
-6) If you do not have eclipse, download the installer from [here] (http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/kepler/SR1/eclipse-standard-kepler-SR1-win32-x86_64.zip)
 
-7) At this point you should be ready to start modding.  Run eclipse.  When prompted for a workspace, 
+6) Run install.cmd from the forge directory.  This will download and install all of the necessary prerequisites. 
+   
+7) If you do not have eclipse, download the installer from [here] (http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/kepler/SR1/eclipse-standard-kepler-SR1-win32-x86_64.zip)
+
+8) At this point you should be ready to start modding.  Run eclipse.  When prompted for a workspace, 
 use relative path "/mcp/eclipse".  If you used the suggested folder structure, you would enter
 "C:\modding\github\account_name\bugcraft\forge\mcp\eclipse"
 
-8) Congratulations!  You are ready to test the mod, click the play button.  
+9) Congratulations!  You are ready to test the mod, click the play button.  
 The minecraft client should launch.
 If everything is setup properly you should see the following when you click the "mods" button.
 
 "Minecraft Coder Pack"
-"Forge Mod Loader"
-"Minecraft Forge"
-"Bug Craft"
 
-8) 
+"Forge Mod Loader"
+
+"Minecraft Forge"
+
+"Bug Craft"
+ 
